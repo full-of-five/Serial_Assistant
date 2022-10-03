@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
             break;
         }
     }
-    Widget w;
-    w.show();
+    Widget c;
+    c.show();
     return a.exec();
 }
