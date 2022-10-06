@@ -26,7 +26,14 @@ private slots:
 
     void on_clearPB_clicked();
 
+
+
+    void on_Hex_display_stateChanged(int arg1);
+
 private:
     Ui::Widget *ui;
+    char convertCharToHex(char ch);
+    void convertStringToHex(const QString &str, QByteArray &byteData);
+    QByteArray origin_data;
 };
 #endif // WIDGET_H
